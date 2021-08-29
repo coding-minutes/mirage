@@ -12,4 +12,4 @@ RUN poetry install --no-root --no-interaction --no-ansi
 
 COPY . .
 
-ENTRYPOINT [ "gunicorn", "mirage.wsgi", "-b", "0.0.0.0:8000" ]
+ENTRYPOINT [ "gunicorn", "mirage.wsgi", "-b", "0.0.0.0:8765" ]
