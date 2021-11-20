@@ -4,5 +4,5 @@ from api.views import PingPongView, LinksRetrieveUpdateDestroyView, LinksListCre
 urlpatterns = [
     path("ping/", PingPongView.as_view()),
     path("links/<pk>", LinksRetrieveUpdateDestroyView.as_view()),
-    path('links/', LinksListCreateView.as_view()),
+    path("links/", LinksListCreateView.as_view()),
 ]

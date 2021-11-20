@@ -11,4 +11,4 @@ class Config:
     DB_USER = os.environ.get("POSTGRES_USER")
     DB_PASS = os.environ.get("POSTGRES_PASSWORD")
 
-    DEFAULT_CODE_LENGTH = int(os.environ.get("DEFAULT_CODE_LENGTH", '6'))
+    DEFAULT_CODE_LENGTH = int(os.environ.get("DEFAULT_CODE_LENGTH", "6"))
